@@ -10,8 +10,9 @@ that are useful for solving evil annoying problems
 
 ### installation
 
+clone this repo and run 
 ```
-python -m pip install sleepless-solutions
+python -m pip install .
 ```
 
 
