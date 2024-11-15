@@ -1,4 +1,4 @@
-# derivatives and delusions 
+# derivatives and despair
 
 hail mary tools for engineering students when we're thoroughly screwed
 

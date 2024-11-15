@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "ss"
-version = "0.1.0"
+name = "despair"
+version = "0.2.0"
 description = "hail mary tools for engineering students when we're thoroughly screwed"
 authors = ["Kyle Tennison <kyletennison05@gmail.com>"]
 license = "MIT"
