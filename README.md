@@ -1,4 +1,4 @@
-# sleepless solutions
+# derivatives and delusions 
 
 hail mary tools for engineering students when we're thoroughly screwed
 
