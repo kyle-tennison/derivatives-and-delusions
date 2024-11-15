@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sleepless-solutions"
+version = "0.1.0"
+description = "Hail Mary tools to engineering students when we're thoroughly screwed."
+authors = ["Kyle Tennison kyletennison05@gmail.com"]
+license = "MIT"
+repository = "https://github.com/kyle-tennison/sleepless-solutions"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+sympy = "^1.10"
+numpy = "^1.21"
+matplotlib = "^3.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
