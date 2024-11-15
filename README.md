@@ -18,14 +18,19 @@ python -m pip install sleepless-solutions
 ### usage
 
 ```python
-from ss import *
+import despair as d
 
 
 x, y, z = syms("x, y, z")
 
 all_of_my_homework_problems_that_i_hate = [
     2*x + 4*y + z, # == 0
-    4
-
+    2*x - 2, # == 0
+    y+4, # == 0
 ]
+
+
+x, y, z = d.solve_eoe(all_of_my_homework_problems_that_i_hate, (x, y, z))
+
+d.splendid() #   yeah pretty splendid
 ```

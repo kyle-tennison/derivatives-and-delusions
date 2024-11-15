@@ -10,7 +10,10 @@ __all__ = ["solve", "diff", "integrate", "Eq", "symbols", "simplify", "Piecewise
 def solve_eoe(eqns: list, solve_for: tuple | list) -> tuple:
     """Solve a list of expressions at all equal zero."""
     sol = solve([Eq(e, 0) for e in eqns], solve_for)
-    return tuple(sol[i] for i in solve_for)
+    try:
+        return tuple(sol[i] for i in solve_for)
+    except Exception as e:
+        raise RuntimeError(f"womp womp") from e
 
 
 def plot(*args, **kwargs):

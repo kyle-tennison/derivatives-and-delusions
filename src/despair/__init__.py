@@ -1,3 +1,4 @@
+from random import choice
 from despair.sympy_util import (
     solve,
     diff,
@@ -33,3 +34,4 @@ __all__ = [
 ]
 
 beer = lambda: print("beer")
+splendid = lambda: print(choice(["yeah pretty splendid", "not splendid no"]))
