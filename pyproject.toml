@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "sleepless-solutions"
+name = "ss"
 version = "0.1.0"
-description = "Hail Mary tools to engineering students when we're thoroughly screwed."
-authors = ["Kyle Tennison kyletennison05@gmail.com"]
+description = "hail mary tools for engineering students when we're thoroughly screwed"
+authors = ["Kyle Tennison <kyletennison05@gmail.com>"]
 license = "MIT"
 repository = "https://github.com/kyle-tennison/sleepless-solutions"
 

@@ -1,6 +1,6 @@
 # sleepless solutions
 
-hail mary tools to engineering students when we're thoroughly screwed
+hail mary tools for engineering students when we're thoroughly screwed
 
 ### overview
 
